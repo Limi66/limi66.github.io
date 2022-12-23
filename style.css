@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(230, 227, 64);
+    font-family: 'Chivo Mono', monospace;
+}
+
+#main {
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+}
+
+#main div {
+    width: 100px;
+    height: 80px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
