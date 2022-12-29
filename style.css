@@ -1,19 +1,51 @@
-body{
-    background-color: rgb(230, 227, 64);
-    font-family: 'Chivo Mono', monospace;
-}
-
-#main {
-    width: 330px;
-    height: 300px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: space-around;
-}
-
-#main div {
-    width: 100px;
-    height: 80px;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: rgb(74, 188, 233);
+      }
+    
+    #main {
+        width: 900px;
+        height: 1000px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #main div {
+        width: 150px;
+        height: 200px;
+    }
+  }
+
+@media only screen and (min-width: 481px) and (max-width: 2000px) {
+    body {
+        background-color: rgb(230, 227, 64);
+    }
+    
+    #main {
+        width: 330px;
+        height: 300px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-around;
+    }
+
+    #main div {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+
+body {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 15px;
+  }
+
+div {
+    display: block;
+}
